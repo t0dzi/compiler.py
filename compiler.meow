@@ -1,0 +1,20 @@
+print 'Hello, world
+print 'meow
+
+a = 123456789
+
+while a % 2 == 0
+    a = a / 2
+    print 2
+@
+
+d = 3
+
+while a > 1
+    while a % d == 0
+        a = a / d
+        print d
+    @
+    d = d + 2
+@
+print a
